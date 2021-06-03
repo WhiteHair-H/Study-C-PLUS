@@ -140,10 +140,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddOperator.cpp" />
+    <ClCompile Include="Humanchar.cpp" />
+    <ClCompile Include="InheritAccess.cpp" />
+    <ClCompile Include="InheritGraduate.cpp" />
+    <ClCompile Include="InheritStudent.cpp" />
     <ClCompile Include="MinusOperator.cpp" />
     <ClCompile Include="operator1.cpp" />
     <ClCompile Include="operator2.cpp" />
+    <ClCompile Include="Override.cpp" />
     <ClCompile Include="TimeAdd.cpp" />
+    <ClCompile Include="TimePlusInt.cpp" />
+    <ClCompile Include="TimePlusInt2.cpp" />
+    <ClCompile Include="TimePlusInt3.cpp" />
+    <ClCompile Include="TimeRelation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
