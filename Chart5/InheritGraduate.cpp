@@ -45,14 +45,14 @@
 //	}
 //	void research()
 //	{
-//		printf("%s을 연구하고 논문을 쓴다.\n", thesis);
+//		printf("%s를 연구하고 논문을 쓴다.\n", thesis);
 //	}
 //};
 //
 //
 //int main()
 //{
-//	graduate moon("하진우", 27, 960111, "리눅스마스터");
+//	graduate moon("하진우", 27, 960111, "리눅스");
 //	moon.research();
 //	return 0;
 //}

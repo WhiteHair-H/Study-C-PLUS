@@ -144,15 +144,26 @@
     <ClCompile Include="InheritAccess.cpp" />
     <ClCompile Include="InheritGraduate.cpp" />
     <ClCompile Include="InheritStudent.cpp" />
+    <ClCompile Include="MemObject.cpp" />
     <ClCompile Include="MinusOperator.cpp" />
+    <ClCompile Include="MultiInherit.cpp" />
+    <ClCompile Include="NestClass.cpp" />
+    <ClCompile Include="ObjectPointer.cpp" />
     <ClCompile Include="operator1.cpp" />
     <ClCompile Include="operator2.cpp" />
+    <ClCompile Include="Overridable.cpp" />
     <ClCompile Include="Override.cpp" />
+    <ClCompile Include="PrivateInherit.cpp" />
     <ClCompile Include="TimeAdd.cpp" />
     <ClCompile Include="TimePlusInt.cpp" />
     <ClCompile Include="TimePlusInt2.cpp" />
     <ClCompile Include="TimePlusInt3.cpp" />
     <ClCompile Include="TimeRelation.cpp" />
+    <ClCompile Include="VirtFunc.cpp" />
+    <ClCompile Include="VirtFunc2.cpp" />
+    <ClCompile Include="VirtualCode.cpp" />
+    <ClCompile Include="객체포인터.cpp" />
+    <ClCompile Include="상속.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
