@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9198e165-75d6-4dc1-9ec7-b40b8a2ed964}</ProjectGuid>
-    <RootNamespace>Chart5</RootNamespace>
+    <ProjectGuid>{7432e4eb-32d2-4792-9c17-20595bec0b7c}</ProjectGuid>
+    <RootNamespace>Chart8</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,39 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AddOperator.cpp" />
-    <ClCompile Include="GraphicObject.cpp" />
-    <ClCompile Include="MemCallMem.cpp" />
-    <ClCompile Include="Humanchar.cpp" />
-    <ClCompile Include="InheritAccess.cpp" />
-    <ClCompile Include="InheritGraduate.cpp" />
-    <ClCompile Include="InheritStudent.cpp" />
-    <ClCompile Include="MemObject.cpp" />
-    <ClCompile Include="MinusOperator.cpp" />
-    <ClCompile Include="MultiInherit.cpp" />
-    <ClCompile Include="NestClass.cpp" />
-    <ClCompile Include="ObjectPointer.cpp" />
-    <ClCompile Include="operator1.cpp" />
-    <ClCompile Include="operator2.cpp" />
-    <ClCompile Include="Overridable.cpp" />
-    <ClCompile Include="Override.cpp" />
-    <ClCompile Include="PrivateInherit.cpp" />
-    <ClCompile Include="PureVirtual.cpp" />
-    <ClCompile Include="TimeAdd.cpp" />
-    <ClCompile Include="TimePlusInt.cpp" />
-    <ClCompile Include="TimePlusInt2.cpp" />
-    <ClCompile Include="TimePlusInt3.cpp" />
-    <ClCompile Include="TimeRelation.cpp" />
-    <ClCompile Include="VirtDestructor.cpp" />
-    <ClCompile Include="VirtFunc.cpp" />
-    <ClCompile Include="VirtFunc2.cpp" />
-    <ClCompile Include="VirtualCode.cpp" />
-    <ClCompile Include="가상소멸자.cpp" />
-    <ClCompile Include="객체포인터.cpp" />
-    <ClCompile Include="상속.cpp" />
+    <ClCompile Include="ExplicitPara.cpp" />
+    <ClCompile Include="NotTypeArgument.cpp" />
+    <ClCompile Include="TemplateDefault.cpp" />
+    <ClCompile Include="PosValueTemp.cpp" />
+    <ClCompile Include="SwapArray.cpp" />
+    <ClCompile Include="SwapFunc.cpp" />
+    <ClCompile Include="SwapObject.cpp" />
+    <ClCompile Include="swaptemp.cpp" />
+    <ClCompile Include="swapvoid.cpp" />
+    <ClCompile Include="TempMember.cpp" />
+    <ClCompile Include="TempReturn.cpp" />
+    <ClCompile Include="TempReturn2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Chart1\cursor.h" />
+    <ClInclude Include="cursor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

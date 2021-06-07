@@ -90,5 +90,25 @@
     <ClCompile Include="Overridable.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="GraphicObject.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MemCallMem.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="가상소멸자.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtDestructor.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PureVirtual.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Chart1\cursor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
