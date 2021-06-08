@@ -139,7 +139,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bad_alloc.cpp" />
+    <ClCompile Include="CtorException.cpp" />
+    <ClCompile Include="ExceptionClass.cpp" />
+    <ClCompile Include="ExceptionObject.cpp" />
+    <ClCompile Include="ExceptionReturn.cpp" />
+    <ClCompile Include="exdynamic.cpp" />
+    <ClCompile Include="ExeptionEnum.cpp" />
+    <ClCompile Include="exretry.cpp" />
+    <ClCompile Include="InheritException.cpp" />
+    <ClCompile Include="nesttry.cpp" />
+    <ClCompile Include="stackunwinding.cpp" />
+    <ClCompile Include="terminate.cpp" />
+    <ClCompile Include="throwfunc.cpp" />
     <ClCompile Include="trycatch.cpp" />
+    <ClCompile Include="tryctor.cpp" />
+    <ClCompile Include="tryfunc.cpp" />
+    <ClCompile Include="unexpect.cpp" />
+    <ClCompile Include="스택되감기.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Chart8\cursor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
